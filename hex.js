@@ -4,7 +4,7 @@ const color = document.querySelector('.color');
 
 btn.addEventListener('click', function(){
     let hexColor = '#';
-    // Loop para preencher todos os 6 valores necessários para compor uma cor hexadecimal
+    
     for(let i = 0; i < 6; i++){
         hexColor += hex[getRandomNumber()];
     }
